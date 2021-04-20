@@ -1,7 +1,7 @@
 
 
-[X] Create Repo and clone down to local drive
-[_] Install NPM and other depencancy moduals
+[X] Create Repo and clone down to local drive    
+[_] Install NPM and other depencancy moduals    
 [_] 
 
 # Unit 19 React Homework: Employee Directory
