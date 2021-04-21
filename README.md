@@ -2,7 +2,10 @@
 
 [X] Create Repo and clone down to local drive    
 [_] Install NPM and other depencancy moduals    
-[_] 
+[_] create list of components
+[_] create api call and store data in state variable
+[_] sort list using hook or class
+[_] filter list using hook or class in search input
 
 # Unit 19 React Homework: Employee Directory
 
