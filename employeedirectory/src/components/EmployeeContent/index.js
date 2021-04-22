@@ -1,7 +1,7 @@
 import APIsearch from "../../utils/API";
 import { useState, useEffect } from "react";
 
-function EmployeeContent ( {peep, sortArray, arrFilter}) {
+function EmployeeContent({ peep, sortArray, arrFilter }) {
 
     useEffect(() => {
         APIsearch.getPeopleData()
@@ -13,13 +13,16 @@ function EmployeeContent ( {peep, sortArray, arrFilter}) {
 
     return (
         <div className="content">
-            {sortArray.map(({name}) => {
-                
-            })}
+        <p>Load Employee content here</p>
+        {/* <APIsearch getPeopleData/> */}
+            {/* {sortArray.map(({ name }) => {
+                return (
+                    <div key={name} >
+                    </div>
+                )
+            }
+            )} */}
         </div>
-
     )
-
 }
-
-export default EmployeeContent; 
+export default EmployeeContent;
